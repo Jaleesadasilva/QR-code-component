@@ -1,0 +1,23 @@
+.footer {
+    &__challenge {
+        margin: 1.5em 0 0;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 300;
+        text-align: center;
+    
+        a { 
+            text-decoration: none;
+            color: $jal-green;
+            font-weight: 500;
+            border-bottom: 0px solid $light-gray;
+            transition: border-bottom 500ms ease-in;
+    
+            &:hover,
+            &:focus,
+            &:active {
+                outline: 0;
+                border-bottom: 1px solid $jal-green;
+            }
+        }
+    }
+}

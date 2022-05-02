@@ -1,0 +1,35 @@
+.card {
+    &__container {
+        background-color: $white;
+        border-radius: 18px;
+        padding: 1em;
+        width: 75%;
+        box-sizing: border-box;
+        box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, .05);
+        font-family: $primary_ff;
+        font-weight: 400;
+
+        img {
+            border-radius: 18px;
+            max-width: 100%;
+        }
+
+        &-text {
+            text-align: center;
+
+            h1 {
+                font-size: 1.4rem;
+                font-weight: 700;
+            }
+
+            p {
+                color: $grayish-blue;
+                padding: 0 .5em;
+            }
+        }
+
+        @media screen and (min-width: 375px) {
+            width: 300px;
+        }
+    }
+}
